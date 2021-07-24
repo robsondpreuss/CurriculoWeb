@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <title>Portfólio</title>
 </head>
 <body>
@@ -13,11 +17,14 @@
         <header>
             <div class="container">
                 <div class="linha">
+                    <div class="coluna coluna-esquerda">
                     <figure>
                         <img src="img/profile.jpeg" alt="Fulano de tal">
-                        <figcaption>Fulano de tal</figcaption>
+                        <figcaption class="hidden">Fulano de tal</figcaption>
                     </figure>
+                    </div>
 
+                    <div class="coluna coluna-direita">
                     <h1>Fulono de tal</h1>
                     <p>Programador Full-Stack</p>
 
@@ -34,6 +41,7 @@
                     </ul>
                 </div>
             </div>
+        </div>
         </header>
 
         <!-- CORPO DA PÁGINA-->
@@ -125,6 +133,49 @@
                 </div>
             </main>
 
-    
+            <!-- RODAPÉ -->
+            <footer>
+                <div class="container">
+
+                   <nav>
+                       <ul class="redes-sociais">
+                            <li>
+                                <a href="#">
+                                    <img src="img/facebook.svg" alt="Facebook">
+                                    <p>Facebook</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="img/github.svg" alt="GitHub">
+                                    <p>GitHub</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="img/instagram.svg" alt="Instagram">
+                                    <p>Instagram</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="img/linkedin.svg" alt="LinkedIn">
+                                    <p>LinkedIn</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="img/youtube.svg" alt="YouTube">
+                                    <p>YouTube</p>
+                                </a>
+                            </li>
+                       </ul>
+                   </nav>
+                </div>
+            </footer>    
 </body>
 </html>
