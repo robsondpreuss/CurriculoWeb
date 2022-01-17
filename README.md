@@ -1,5 +1,5 @@
 # CurriculoWeb
- Modelo de curriculo web.
+ Modelo de currículo web.
  
  *HTML\
  *CSS\
